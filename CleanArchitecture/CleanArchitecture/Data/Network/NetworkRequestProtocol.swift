@@ -34,7 +34,7 @@ extension NetworkRequestProtocol {
     }
     
     var requestBody: Encodable? {
-        return nil
+        return requestBody
     }
     
     var timeOut: Float {
