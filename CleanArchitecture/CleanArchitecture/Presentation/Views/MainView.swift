@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  MainView.swift
 //  CleanArchitecture
 //
 //  Created by Trau Nguyen on 2/2/25.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct MainView: View {
     @StateObject private var crewViewModel = CrewViewModel()
     
     var body: some View {
@@ -25,5 +25,5 @@ struct ContentView: View {
 }
 
 #Preview {
-    ContentView()
+    MainView()
 }
